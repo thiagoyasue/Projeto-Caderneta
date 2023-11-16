@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <!-- botão de libras -->
+    <item
+        android:id="@+id/action_libras"
+        android:icon="@drawable/libras_icon"
+        android:title="@string/action_libras"
+        app:showAsAction="ifRoom"/>
+</menu>

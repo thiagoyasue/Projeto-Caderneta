@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geral_projvida">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+
+    <ScrollView
+        android:id="@+id/sv0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/sv1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="O que é projeto de vida?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Na adolescência a gente começa  a  descobrir  que,  além de  ter  belos  sonhos,  é  preciso  ter  metas  e  assumir o compromisso, com você mesmo, de concretizá-las. Tudo
+o que a gente quer pode ser conquistado dia após dia.
+ "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view2"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Um projeto de vida é isso: planejar o futuro e colocar o plano em prática agora, no presente"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Ter um projeto de vida faz a pessoa se sentir mais segura, confiante e menos perdida na hora de fazer as escolhas que todos temos que fazer a cada dia.\n
+
+    Faz pensar também em como será o mundo que vamos ajudar a construir.\n
+
+    Por ser um projeto, pode sofrer alterações no meio do caminho. E sempre é bom parar para pensar se o que foi planejado há algum tempo ainda tem sentido hoje.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view3"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Por último, lembre-se:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Você tambem é responsável pela sua sua vida e, por isso mesmo, pode participar da construção de um mundo melhor. Um mundo sem preconceitos, sem discriminação. Um mundo mais pacífico, mais solidário e menos violento.\n
+
+    Por isso, escolha bem as sementes que vão gerar os frutos que você deseja colher.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".geral_dicassaude">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+
+    <ScrollView
+        android:id="@+id/sv0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/sv1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Falando sobre meus direitos..."
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Além da Constituição Brasileira, o Estatuto da Criança e do Adolescente (ECA) é uma lei muito importante no nosso país. "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Para esse estatuto, adolescente é a pessoa que tem entre 12 e 18 anos de idade. Porém, os serviços de saúde consideram a adolescência a faixa etária entre 10 e 19 anos."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view2"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Para que serve o ECA?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Os governos (federal, estadual e municipal), a sociedade, a comunidade e a família têm a responsabilidade de garantir a você direito à vida e à saúde. Ter saúde também é estar na escola, alimentar-se bem, ter amigos, brincar, divertir-se, fazer alguma atividade física, enfim, ser feliz!"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Nas consultas, você tem direito de ser atendido sozinho, caso você queira."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="E tem mais: as informações dadas durante suas consultas serão mantidas em sigilo e só poderão ser reveladas se você concordar ou sempre que houver danos a sua saúde ou a terceiros."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view3"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Mas e no caso de uma internação?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Em caso de internação em um hospital, uma  pessoa  (pai/mãe ou responsável) pode ficar com você o  tempo  todo."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view4"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Você sabia que violência faz mal à saúde?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="A violência é um problema que tem afetado a vida de muitos jovens. Ela pode ser física, sexual ou psicológica. Se estiver vivenciando uma situação de violência, procure um adulto ou profissional de sua confiança para ajudá-lo. O preconceito contra as diferenças também é violência!"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ilust_2" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

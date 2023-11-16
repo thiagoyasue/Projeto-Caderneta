@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geral_fem_puberbade">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:id="@+id/sv0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="-17dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/sv1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Meu corpo está diferente, o que está acontecendo comigo?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Você está na adolescência, um período em que acontecem mudanças no corpo, nos sentimentos, no humor, no jeito de enxergar a si mesma e ao mundo, enquanto aumentam as atividades e as responsabilidades.\n\n
+Portanto, é normal ocorrerem transformações com o estirão do crescimento, começando pelas mãos, os pés e depois vem o aumento da altura. Tudo isso faz parte do que chamamos de puberdade, que é uma fase inicial da adolescência.\n\n
+A partir de estímulos hormonais, inicia-se o surgimento do broto mamário (seios), que é seguido pelo nascimento de pelos na genitália (vulva) e nas axilas.\n\n
+O crescimento dos pelos é lento e só diminui por volta dos 18 anos, assim como a área ao redor dos mamilos. Há um aumento também do tamanho dos quadris, que ficam arredondados, enquanto a cintura fica mais fina.\n\n
+Também na adolescência Ocorre a primeira menstruação, chamada de menarca, um momento marcante na vida da mulher. Além disso, é comum o aumento da transpiração e odores (cheiros), principalmente nas axilas e nos pés.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view2"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Espinhas? Calma, isso não é o fim do mundo!"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Elas acontecem nessa fase e surgem pelo amadurecimento hormonal do seu corpo e pela oleosidade da pele. Nunca as esprema para não deixar cicatrizes.\n\n
+
+Uma boa dica: lavar o rosto 2 a 3 vezes ao dia com sabonete esfoliante ou neutro pode ajudar no controle da oleosidade. Se o problema incomodar, procure um serviço de saúde, pois existe tratamento, viu? Sem drama!\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view3"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="O conhecimento do próprio corpo e de como ele funciona é importante para que você entenda o que está acontecendo e o que é normal ou não"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Cada adolescente se desenvolve no seu tempo, ou seja, pode haver diferença entre você e as suas amigas.\n\n
+Não se preocupe, isso é mais do que normal!\n
+Mas se você tiver alguma dúvida, procure um profissional de saúde, pois ele (a) ou ela pode dar boas orientações e acabar com suas dúvidas.\n\n
+
+Acompanhe bem de perto seu crescimento e desenvolvimento.\n\n
+
+As figuras da página seguinte ilustram e classificam estágios do desenvolvimento puberal ou maturação sexual feminina. Confira.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view4"
+                                                            android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="E a menstruação"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="É a eliminação cíclica (mensal) de sangue    e tecidos de dentro do útero pela vagina, a partir do amadurecimento dos órgãos  sexuais  e  reprodutivos. Ela também é conhecida por nomes como “aqueles dias”, “chico”, “regras”, entre outros.\n\n
+Durante os dois primeiros anos, é normal que os ciclos menstruais (tempo que se passa entre uma menstruação  e a próxima) sejam irregulares, podendo variar também na duração e na quantidade de sangramento.\n\n
+Nessa época, é interessante que você procure um profissional de saúde,  pois  ele  pode  dar  boas  orientações e tirar suas dúvidas.\n\n
+A menstruação normal tem duração de três a sete dias, com intervalos de 28 dias em média, podendo variar de 21 a 35 dias entre um ciclo e outro.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="A quantidade de sangramento é bastante variável"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="E depende de diversos fatores, como a quantidade de hormônios, uso de algumas medicações e a presença de doenças. Sendo assim, o ciclo menstrual normal pode variar, mês a mês. Entretanto, quando essa irregularidade permanece por um longo tempo, traz alguma dor, desconforto ou grande perda de sangue. Suas causas devem ser avaliadas por um profissional de saúde."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv5"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view5"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Como fazer o controle da menstruação?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Antes de qualquer coisa, é importante que você conheça  o funcionamento de seu próprio corpo. Isso permitirá que você cuide melhor de sua saúde e higiene.\n\n
+Registre no calendário ao lado todos os seus ciclos menstruais como parte desse autoconhecimento.\n\n
+É só você anotar, a cada mês, o dia que inicia e o dia que termina o sangramento. Por exemplo: se começou no dia 13 de janeiro e terminou no dia 17\n"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv6"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view6"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Você sabia?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="•	As cólicas são muito comuns nessa fase e, na maioria das vezes, não significam nenhum problema. Você pode usar compressas quentes no local da dor ou tomar um chá.   Se não passar, é bom procurar um profissional de saúde para avaliar e orientar você sobre outros tratamentos. Não é justo ficar sofrendo, perder aula ou outras atividades prazerosas por causa de cólicas.\n\n
+•	Os absorventes devem ser trocados com frequência para evitar incômodo, mau cheiro e outros  problemas  decorrentes do uso prolongado. Procure  usar  o  absorvente  que  melhor se adapte a seu corpo e à quantidade de fluxo menstrual.\n\n
+•	A vulva é a parte externa da genitália feminina, que é composta de grandes lábios, pequenos lábios, clitóris, orifício vaginal, orifício uretral e monte de vênus. Já a vagina é um canal muscular elástico que vai da vulva até o colo do útero.\n\n
+•	A higiene íntima ou a limpeza da genitália  externa é muito importante para sua saúde. Procure lavar a vulva durante o banho diário e, se possível, também após evacuar, não esquecendo de secá-la bem. Se em vez de lavar após evacuar, você usar papel higiênico, faça-o SEMPRE no sentido da  frente  para  trás  (da  vulva para o ânus), nunca ao contrário, evitando assim a contaminação da vagina por germes encontrados nas fezes.
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv7"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view7"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Além de tudo isso ..."
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="•	A vagina tem uma secreção normal que se modifica de acordo com a fase do ciclo menstrual e com a idade.\n\n
+•	E lembre-se: uma secreção vaginal de cor clara, sem mau cheiro, coceira ou ardor não é corrimento.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

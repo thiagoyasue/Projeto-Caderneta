@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cadsaude.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".sobre"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+
+        <activity android:name=".welcome" />
+        <activity android:name=".Settings" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".geral_eca"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_higienebucal_1"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_adolescencia_1"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_dicassaude"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_alimentacao"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_projvida"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_sexualidade"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_fem_sexualidade"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_fem_puberbade"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_masc_puberdade"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_masc_vacina"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".geral_fem_vacina"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cadsaude.myapplication.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".geral_higienebucal_1">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+
+    <ScrollView
+        android:id="@+id/sv0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/sv1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Nós usamos a boca o tempo todo, certo? Para ter um sorriso bonito e saudável, o que é preciso?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="•	Escovar bem os dentes todos os dias, após cada refeição e uma última vez antes de dormir.\n\n
+•	Não esquecer de passar o fio dental e de limpar a língua. Você sabia que a principal causa do mau hálito é a não limpeza da língua?\n\n
+•	Procurar comer menos doces, principalmente entre as refeições. Se comer, lembrar de escovar os dentes logo em seguida.\n\n
+•	Usar creme dental com flúor ajuda a proteger os dentes da cárie.\n\n
+•	Visitar anualmente o dentista para que ele possa orientar na prevenção de doenças, tirar suas dúvidas e tratar o que for preciso (dor de dente, sangramento na gengiva, etc.).\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view2"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Cárie. Afinal, o que é isso?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="•	É uma doença transmissível e infecciosa, formada pela placa bacteriana, que é uma massa amarelada pegajosa que se forma sobre os dentes e é constituída principalmente de bactérias. Diariamente, ela deve ser removida com a escova de dente e fio dental.\n\n
+•	Sabe aquele “buraco” que vemos nos dentes? É o sinal de que a cárie já está bem desenvolvida. Aquele  gosto ruim  de  sangue  na  boca   ou  sangramento  na  gengiva é sinal de que ela está doente.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view3"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Veja aqui como limpar bem os dentes:"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/d1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="•	Primeiro, passe o fio ou fita dental entre todos os dentes (mas devagar para não machucar a gengiva).  Depois que o fio passar pelo ponto mais apertado, leve-o até o espaço existente entre a gengiva e o dente e pressione
+o fio dental sobre ele puxando a sujeira até a ponta do dente. Primeiro de um lado, depois do outro.
+.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/d2" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="•	Escove todos os lados, movimentando suavemente a escova da gengiva até a ponta dos dentes. Não se esqueça de escovar também a parte de trás dos últimos dentes.\n\n
+•	Escove o lado que usamos para mastigar em um movimento suave de vai-e-vem. A escova deve alcançar até os últimos dentes lá no fundo da boca.\n\n
+
+•	Por último, escove a língua, pois é muito importante, já que ela acumula restos de  alimentos  e  bactérias  que  provocam o mau hálito. Faça movimentos cuidadosos com a escova como se você  estivesse “varrendo” a língua da parte interna até    a ponta.\n\n
+
+Pronto, agora olhe para o espelho e sorria. Você está de parabéns!\n "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

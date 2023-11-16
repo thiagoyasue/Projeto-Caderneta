@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".geral_adolescencia_1">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/my_toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <VideoView
+                android:id="@+id/video_view"
+                android:layout_width="340dp"
+                android:layout_height="400dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/sv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sv1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Adolescência: Um importante momento da vida "
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Se você tem entre 10 e 19 anos de idade, está vivendo um tempo rico em descobertas e mudanças: a adolescência. "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Para curtir a vida e desenvolver todas as suas capacidades, você vai precisar de muita saúde. "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Lembre-se, aprender a cuidar de seu próprio bem-estar físico, emocional, psicológico, espiritual e social é um dos desafios mais importantes para uma vida saudável. "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ilust_1" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Esta caderneta de saúde foi feita para apoiar você nesse processo de autodescoberta e autocuidado"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Ela ajudará você a acompanhar as transformações que ocorrem em seu corpo, a se informar sobre os seus direitos como adolescente. "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="E não é só isso!"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Ela traz também dicas de como evitar doenças e fala sobre os cuidados que você precisa ter com seu corpo. "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Isso não é legal?! "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Você sabia que a responsabilidade por sua própria saúde é uma conquista gradativa?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Ela vai acontecendo aos poucos e depende do apoio que os seus responsáveis – sua família, a escola, os profissionais de saúde e a sociedade – lhe fornecem, mas não se esqueça de que você é o principal responsável pela sua saúde e esse é o primeiro passo para o exercício da sua cidadania."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Toda vez que qualquer profissional de saúde o atender, mostre sua caderneta para que ele(a) possa anotar as principais informações. "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Esta caderneta de saúde é um documento útil que vai ajudá-lo a conhecer um pouco mais sobre seu corpo e a cuidar melhor de si próprio. "
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

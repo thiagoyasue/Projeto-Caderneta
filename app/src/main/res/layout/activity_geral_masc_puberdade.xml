@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geral_masc_puberdade">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:id="@+id/sv0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="-17dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/sv1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Meu corpo está diferente, o que está acontecendo comigo?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Você está na adolescência, um período em que acontecem mudanças no corpo, nos sentimentos, no humor, no jeito de enxergar a si mesma e ao mundo, enquanto aumentam as atividades e as responsabilidades.\n\n
+    Portanto, é normal ocorrerem transformações com o estirão do crescimento, começando pelas mãos, os pés e depois sua altura aumenta. E é nessa época que também ocorrem o alargamento dos ombros e um aumento gradativo da força e da musculatura, que dobra de tamanho.\n\n
+    A partir de estímulos hormonais, podem ocorrer também mudanças no tom de voz. Inicia-se o aumento dos testículos   e do pênis. Também há o aparecimento de pelos na região pubiana, nas axilas, no rosto e no restante do corpo.\n\n
+    E não para  por  aí  não!  É  comum  o  aumento  da  transpiração e odores (cheiros),  principalmente  nas  axilas e nos pés.\n\n
+    Por tudo isso, o banho diário é muito importante!\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view2"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Espinhas? Calma, isso não é o fim do mundo!"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Elas acontecem nessa fase e surgem pelo amadurecimento hormonal do seu corpo e pela oleosidade da pele. Nunca as esprema para não deixar cicatrizes.\n\n
+
+    Uma boa dica: lavar o rosto 2 a 3 vezes ao dia com sabonete esfoliante ou neutro pode ajudar no controle da oleosidade. Se o problema incomodar, procure um serviço de saúde, pois existe tratamento, viu? Sem drama!\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view3"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="O conhecimento do próprio corpo e de como ele funciona é importante para que você entenda o que está acontecendo e o que é normal ou não"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Cada adolescente se desenvolve no seu tempo, ou seja, pode haver diferença entre você e os seus amigos.\n\n
+Não se preocupe, isso é mais do que normal!\n
+Mas se você tiver alguma dúvida, procure um profissional de saúde, pois ele (a) ou ela pode dar boas orientações e acabar com suas dúvidas.\n\n
+
+    Acompanhe bem de perto seu crescimento e desenvolvimento.\n\n
+
+    As figuras a seguir ilustram e classificam estágios do desenvolvimento puberal, isto é, o desenvolvimento dos orgãos genitais e dos pelos pubianos, também chamados de maturação sexual masculina. Confira\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view4"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Polução noturna? O que é isso?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  É na adolescência que ocorre a 1ª ejaculação, que é a eliminação de sêmem pelo pênis. Nessa fase, pode acontecer a polução noturna, ou seja, ejaculação involuntária de sêmem, que ocorre quando você está dormindo, sonhando."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv5"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view5"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Menino tem peito?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  É frequente na adolescência haver o aumento das mamas, sabia? Isso tem um nome 'difícil', chama-se ginecomastia puberal. Geralmente, esse aumento ocorre nos dois lados e pode doer um pouco. Mas fique tranquilo, isso regride espontaneamente em 1 ano ou até em 2 anos. Caso aumente ou se você apalpar e encontrar algum caroço procure um profissional de saúde."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv6"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view6"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Você sabia?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="•	O pênis tem duas partes: o corpo e a glande. A glande  é  a cabeça do pênis e é recoberta por uma pele chamada de prepúcio, sendo que a uretra é o canal que passa por dentro do pênis.\n\n
+•	A bolsa escrotal tem a forma de um saco de pele (aliás popularmente, se chama assim mesmo: saco) e está localizada abaixo do pênis. A bolsa escrotal tem a função de proteger os testículos, além de manter a sua temperatura adequada.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv7"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view7"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="O pênis desempenha duas funções. Confira"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  A função urinária, que é liberar a urina que vem da bexiga, e a função sexual e reprodutiva, que é a penetração e a ejaculação do esperma, certo?\n\n
+
+    Para a função sexual e reprodutiva, é necessário que haja ereção do pênis. O estímulo sexual faz aumentar o volume de sangue nos vasos sanguíneos do  pênis, aumentando o tamanho dele e provocando a ereção.\n\n
+
+    Quando a excitação continua, ocorre a ejaculação, que é a liberação do esperma ou sêmen como também é conhecido. Geralmente esse momento é acompanhado pelo orgasmo, que é a sensação de prazer. O esperma contém espermatozóides, que são as células reprodutoras masculinas.\n\n
+
+    Por fim, terminada a excitação, ou após a ejaculação, a quantidade de sangue diminui e o pênis volta ao normal, ficando flácido.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view61"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv71"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view8"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Higiene. Outro assunto muito importante"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  É normal que seu pênis apresente uma secreção branca e espessa, que também tem um outro nome 'difícil': chama-se esmegma, na glande, embaixo do prepúcio. É muito importante você limpá-la todos os dias  no  banho  com  água  e sabão. Para isso, primeiro puxe o prepúcio deixando aparecer toda a glande para uma boa higiene.\n\n
+Se você não conseguir puxar totalmente a pele para descobrir a glande, sentir dor ou apresentar feridas ou secreções, procure o serviço de saúde para saber o que está acontecendo, combinado?\n"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

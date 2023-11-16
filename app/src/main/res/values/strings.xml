@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Caderneta do Adolescente</string>
+
+    <string name="vlib5_title">Adolescência: Um importante momento da vida</string>
+
+    <string name="vlib5_1_body">
+        Por isso é preciso cuidar da saúde para que ela fique ainda melhor./n
+Se você tem entre dez e dezenove anos de idade, está vivendo um tempo rico em descobertas e mudanças: a adolescência./n
+Para curtir a vida e desenvolver todas as suas capacidades, você vai precisar de muita saúde./n Lembre-se, aprender a cuidar de seu próprio bem-estar físico, emocional, psicológico, espiritual e social é um dos desafios mais importantes para uma vida
+saudável.</string>
+
+    <string name="vlib5_2_body">
+        Esta caderneta de saúde foi feita para apoiar você nesse processo de autodescoberta e autocuidado./n
+Ela ajudará você a acompanhar as transformações que ocorrem em seu corpo, a se informar sobre os seus direitos como adolescente./n
+E não é só isso! Ela traz também dicas de como evitar doenças e fala sobre os cuidados que você precisa ter com seu corpo. Isso não é legal?!</string>
+
+    <string name="vlib5_3_body">
+    Você sabia que a responsabilidade por sua própria saúde é uma conquista gradativa?/n
+Sim, ela vai acontecendo aos poucos e depende do apoio que os seus responsáveis – sua família, a escola, os profissionais de saúde e a sociedade – lhe fornecem, mas não se esqueça de que você é a principal responsável pela sua saúde e esse é o primeiro passo para o exercício da sua
+cidadania./n
+Toda vez que qualquer profissional de saúde a atender, mostre sua caderneta para que ele ou ela possa anotar as principais informações. Por exemplo, as vacinas recebidas na adolescência, o seu peso e a sua altura e outros dados fundamentais para acompanhar seu crescimento e desenvolvimento./n
+Esta caderneta de saúde é um documento útil que vai ajudá-la a conhecer um pouco mais sobre seu corpo e a cuidar melhor de si própria.
+    </string>
+    <string name="title_activity_menu_inicial">MenuInicial</string>
+
+    <string name="action_help">
+        Sobre Este Aplicativo
+    </string>
+
+    <string name="action_libras">
+        Libras
+    </string>
+
+    <string name="texto_help">
+        Caderneta de Saúde Digital do Adolescente\nVersão: 1808a \nAplicativo desenvolvido por Thiago Yasue\n\nCréditos: \n\n>Ministério da Saúde: Caderneta de Saúde do Adolescente, Caderneta de Saúde da Adolescente\n>Saúde em libras: vocabulário ilustrado: apoio para atendimento do paciente surdo.\n>VLibras
+    </string>
+
+
+</resources>

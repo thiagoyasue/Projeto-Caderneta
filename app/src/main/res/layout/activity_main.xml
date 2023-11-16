@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="Meu Perfil:"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textNome_t"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="Nome: "
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textNome"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="Thiago Yukio Murayama Yasue"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textEnd_t"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="Endereço: "
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textEnd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="Endereço"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textIdade_t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="Data de Nascimento: "
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textIdade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Data de Nascimento"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@android:color/darker_gray" />
+
+                        <TextView
+                            android:id="@+id/textResp_t"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="Nome do Responsável:"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textResp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="Telefone do Responsável"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textResp_t2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="Telefone do Responsável:"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textResp2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:fontFamily="sans-serif"
+                            android:text="Telefone do Responsável"
+                            android:textSize="20sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textSaude_t"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Unidade de Saúde:"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textSaude"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif"
+                                    android:text="Unidade de Saúde"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00A52525"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+
+                <Space
+                    android:id="@+id/space_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" />
+
+                <LinearLayout
+                    android:id="@+id/layout_cadfem"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="#FFD758"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/textView_cad2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="casual"
+                        android:text="Caderneta Feminina"
+                        android:textColor="#B77300FF"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="Selecione um tópico" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:weightSum="1">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_1f"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="0.5"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Introdução"
+                                    android:textColor="#000000" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_2f"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="0.5"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="E.C.A." />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_3f"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="0.5"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Dicas de Saúde" />
+                            </RelativeLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:weightSum="1">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_4f"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Alimentação" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_5f"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Higiene Bucal" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_6f"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Imunização e Vacinas" />
+                            </RelativeLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:weightSum="1">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_7f"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Puberdade" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_8f"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Sexualidade" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_9f"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Projeto de Vida" />
+                            </RelativeLayout>
+                        </TableRow>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@android:color/darker_gray" />
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:id="@+id/space_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" />
+
+                <LinearLayout
+                    android:id="@+id/layout_cadmasc"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="#BEE6B6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_cad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:fontFamily="casual"
+                        android:text="Caderneta Masculina"
+                        android:textColor="#C57700"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="Selecione um tópico" />
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:weightSum="1">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="0.5"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Introdução" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="0.5"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="E.C.A." />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="0.5"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Dicas de Saúde" />
+                            </RelativeLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:weightSum="1">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Alimentação" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Higiene Bucal" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Imunização e Vacinas" />
+                            </RelativeLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:weightSum="1">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Puberdade" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Sexualidade" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.33">
+
+                                <Button
+                                    android:id="@+id/b_9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:autoSizePresetSizes="@array/autosize_text_sizes"
+                                    android:fontFamily="sans-serif-condensed-medium"
+                                    android:text="Projeto de Vida" />
+                            </RelativeLayout>
+                        </TableRow>
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#CCFFF095"
+                    android:text="EDITAR PERFIL"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:typeface="sans" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geral_fem_vacina">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <ScrollView
+        android:id="@+id/sv0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="-16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/sv1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Colocando em dia as suas vacinas"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Como você sabe, elas nos protegem contra as doenças que podem causar muitos problemas. Por isso é muito importante saber quais vacinas você tomou até hoje. É possível que você as encontre na sua Caderneta da Criança.\n
+No quadro abaixo você se informa sobre as vacinas disponíveis nas unidades de saúde. Fique em dia com elas!
+ "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cal_fem" />
+
+            <LinearLayout
+                android:id="@+id/sv2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view2"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="(1) Se não tiver recebido esquema completo, completar esquema. A 2ª dose deverá ser tomada um mês após a 1ª dose, e a 3ª dose, seis meses após a 2ª dose.\n\n
+(2)	(A partir de 2014) Tomar uma dose após a 20ª semana de gestação, se não houver tomado anteriormente. Completar o esquema  vacinal  com a vacina dT até 20 dias antes da data provável do parto.\n\n
+Para o profissional de saúde: mesmo que a gestante tenha esquema completo com a vacina dT, administrar uma dose de dTpa, que deve ser considerada como reforço. Caso o período do reforço seja inferior a 5 anos, mesmo assim, administrar uma dose da vacina.\n\n
+(3)	(Para meninas na faixa etária de 12 a 14 anos em 2014 (ano de introdução), de 10 a 12 anos em 2015 e 10 anos em 2016) Tomar  3 doses (0, 6 e 60 meses) conforme orientação do profissional de saúde. Atenção: a vacina HPV só protege contra as doenças provocadas pelos sorotipos de HPV 6, 11, 16 e 18; portanto, não se esqueça de  se  proteger contra as doenças sexualmente transmissíveis!\n\n
+(4)	Para residentes ou viajantes que se deslocam para áreas com recomendação de vacinação. Não esqueça que você precisa se vacinar 10 dias antes da viagem.\n\n
+(5)	Se você tem de 10 a 19 anos de idade e não sabe se já tomou esta vacina, tomar duas doses com intervalo mínimo de 30 dias entre elas. Em caso de esquema vacinal incompleto, completar o esquema.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geral_fem_sexualidade">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:id="@+id/sv0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/sv1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Conversando sobre sexualidade..."
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Sexualidade é algo que desenvolvemos  desde  o nascimento e faz parte da nossa vida em todos os momentos. Vivenciamos bem a nossa sexualidade quando nos sentimos com  nós mesmos, com os outros e com o mundo.\n\n
+
+Sexualidade é muito  mais do que sexo.  Ela envolve desejos  e práticas relacionados à satisfação, à afetividade, ao prazer, aos sentimentos e ao exercício da liberdade. É ter prazer ao acordar e espreguiçar-se na cama. Abrir a janela e sentir o sol ou o vento sobre a pele. É abraçar, acariciar, beijar carinhosamente as outras pessoas.\n\n
+
+É na adolescência que também se inicia o interesse pelas relações afetivas e sexuais. Por isso, é normal que os adolescentes manipulem o próprio corpo (masturbação) em busca de sensações prazerosas.
+
+ "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view2"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Conhecer, ficar, namorar..."
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Sem dúvida, a adolescência é um período muito rico em descobertas e novas experiências, principalmente quando a gente começa a se interessar afetivamente por outra pessoa.\n\n
+
+Neste momento da vida fortalecemos nossa identidade, ampliamos nossa autonomia e a capacidade de fazer escolhas, tomar decisões e assumir novas responsabilidades.\n"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view4"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Você sabe a partir de quando pode ocorrer uma gravidez"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text=", A gravidez pode acontecer no período em que ocorre a primeira menstruação (menarca).\n Mesmo antes de menstruar, já existe a possibilidade de engravidar se ocorrer alguma relação sexual desprotegida, isto é, sem camisinha, pois existem ovulações antes da menarca."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="E se acontecer uma gravidez?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="  Antes de mais nada, calma. Se você desconfiar que está grávida, procure a unidade de saúde e faça o teste de gravidez. Caso o resultado dê positivo, não demore a contar a seu parceiro, à sua família ou um adulto de sua confiança.\n\n
+    É assegurado seu direito ao atendimento pré-natal, ao parto e pós-parto para garantir sua saúde e a de seu bebê.\n\n
+    O aleitamento materno (amamentação do bebê) também é um direito. No caso de estudantes, a escola, pela Lei Federal nº 6202/75, tem deveres com a adolescente grávida e no período pós-parto, como a reposição de provas, justificativa de faltas, etc.\n\n
+    O apoio da família, da escola e de outras pessoas de sua convivência é essencial para que vocês continuem estudando e para que possam prosseguir em busca de autonomia e independência.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv5"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view5"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="O que significa dupla proteção?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text=" Dupla proteção é quando nos protegemos tanto das DST/Aids quanto de uma gravidez. Neste caso, devem ser usados, ao mesmo tempo, a camisinha masculina ou a feminina e um outro método contraceptivo.\n\n Para você saber mais sobre métodos contraceptivos como a pílula, as injeções, o DIU, o diafragma e outros, consulte um profissional de saúde ou acesse os sites que estão no final da sua caderneta."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv6"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view6"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="E se a camisinha falhar, o que eu faço?"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Se a camisinha furar (como dizem) ou vazar, você ainda pode usar a contracepção de emergência para evitar  a gravidez. Ela tambem é conhecida como a “pílula do dia seguinte”.\n\n
+Consiste em um comprimido que deve ser tomado imediatamente após a relação sexual desprotegida. Esse comprimido  funciona  se  tomado  até  cinco  dias  após    a relação. Quanto mais cedo você tomar,  maior  a garantia de dar certo. Procure a unidade de saúde mais próxima.\n\n
+Mas lembramos que a contracepção de emergência não protege contra as DST/Aids nem substitui outros métodos.\n\n
+Caso tenha dúvidas de como utilizar a camisinha masculina e feminine, procure um professional de saúde.\n
+"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sv7"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video_view7"
+                    android:layout_width="340dp"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Caso você seja vítima de uma violência sexual, não guarde segredo."
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Não tome banho e procure imediatamente um serviço de saúde e depois uma delegacia para registrar a ocorrência."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
